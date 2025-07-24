@@ -19,6 +19,7 @@ nav a{
     text-decoration: none;
     font-weight: bolder;
     margin-right: 15px;
+    font-size: 16.75px;
 }
 
 #logo {
@@ -35,23 +36,6 @@ p {
     font-size: 20px;
 }
 
-h1 a {
-    text-decoration: none;
-    background-color: rgb(104, 104, 83);
-    padding: 15px;
-    color: #fdf4e3ff;
-    margin-left: 28.5%;
-    display: inline-block;
-    margin-top: 12px;
-    box-shadow: 1px 1px 2px black, 0 0 25px rgb(255, 250, 207), 0 0 5px rgb(255, 230, 162);
-    font-size: 35px;
-    position: fixed;
-}
-
-h1 a:hover {
-    box-shadow: 1px 1px 4px rgb(0, 0, 0), 0 0 25px rgb(255, 163, 43), 0 0 5px rgb(255, 138, 42);
-}
-
 #home_h1 {
     margin-top: 10px;
     margin-left: 34.5%;
@@ -65,4 +49,169 @@ h1 a:hover {
     margin-left: 12.5%;
     text-align: center;
     width: 75%;
+}
+
+.container_left {
+    margin-left: 5%;
+    position: relative;
+    width: 15%;
+}
+
+.container_right {
+    margin-left: 80%;
+    position: relative;
+    width: 15%;
+}
+
+#alex {
+    clip-path: circle(50%);
+    width: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-top: 30px;
+}
+
+#matt {
+    clip-path: circle(39%);
+    width: 150%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-left: -69px;
+    margin-top: 160px;
+}
+
+#jamie {
+    clip-path: circle(50%);
+    width: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-top: 160px;
+}
+
+#nick {
+    clip-path: circle(39%);
+    width: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-top: 160px;
+}
+  
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+  
+.container_left:hover #alex {
+    opacity: 0.3;
+}
+
+.container_right:hover #matt {
+    opacity: 0.3;
+}
+
+.container_left:hover #jamie {
+    opacity: 0.3;
+}
+
+.container_right:hover #nick {
+    opacity: 0.3;
+}
+
+.container_left:hover .middle {
+    opacity: 1;
+}
+  
+.container_right:hover .middle {
+    opacity: 1;
+}
+  
+.text {
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+#h2_alex {
+    margin-left: 25.5%;
+    margin-top: -13.5%;
+    text-align: left;
+    color: #0e0b0b;
+    letter-spacing: 0.5px;
+}
+
+#p_alex {
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 25.5%;
+    color: #0e0b0b;
+    text-align: left;
+}
+
+#h2_matt {
+    margin-right: 25.5%;
+    margin-top: -13.5%;
+    text-align: right;
+    color: #2d4058;
+    letter-spacing: 0.5px;
+}
+
+#p_matt {
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 25.5%;
+    color: #2d4058;
+    text-align: right;
+}
+
+#h2_jamie {
+    margin-left: 25.5%;
+    margin-top: -13.5%;
+    text-align: left;
+    color: #5f3712;
+    letter-spacing: 0.5px;
+}
+
+#p_jamie {
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 25.5%;
+    color: #5f3712;
+    text-align: left;
+}
+
+#h2_nick {
+    margin-right: 25.5%;
+    margin-top: -17.5%;
+    text-align: right;
+    color: #7a5f07;
+    letter-spacing: 0.5px;
+}
+
+#p_nick {
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    font-family:'Times New Roman', Times, serif;
+    margin-right: 25.5%;
+    color: #7a5f07;
+    text-align: right;
 }
