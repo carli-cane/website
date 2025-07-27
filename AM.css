@@ -4,6 +4,18 @@ body {
     background-color: #a0a081ff;
     color: white;
 }
+nav {
+    margin-top: 10px;
+}
+nav a{
+    margin-left: 10px;
+    margin-top: 10%;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bolder;
+    margin-right: 15px;
+    font-size: 16.75px;
+} 
 
 header {
     background-color: #fdf4e3ff;
@@ -14,13 +26,6 @@ header {
     padding-right: 5px;
 }
 
-nav a{
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: bolder;
-    margin-right: 15px;
-    font-size: 16.75px;
-}
 
 #logo {
     width: 40%;
@@ -44,11 +49,11 @@ p {
 
 #home_p {
     font-family:'Times New Roman', Times, serif;
-    font-size: 25px;
+    font-size: 26.5px;
     letter-spacing: 0.5px;
-    margin-left: 12.5%;
+    margin-left: 10%;
     text-align: center;
-    width: 75%;
+    width: 80%;
 }
 
 .container_left {
@@ -107,6 +112,18 @@ p {
     backface-visibility: hidden;
     margin-top: 160px;
 }
+
+#andy {
+    clip-path: circle(39%);
+    width: 150%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-top: 160px;
+    margin-left: -65px;
+}
   
 .middle {
     transition: .5s ease;
@@ -126,11 +143,15 @@ p {
     opacity: 0.3;
 }
 
-.container_left:hover #jamie {
+.container_right:hover #jamie {
     opacity: 0.3;
 }
 
-.container_right:hover #nick {
+.container_left:hover #nick {
+    opacity: 0.3;
+}
+
+.container_left:hover #andy {
     opacity: 0.3;
 }
 
@@ -183,9 +204,9 @@ p {
 }
 
 #h2_jamie {
-    margin-left: 25.5%;
+    margin-right: 25.5%;
     margin-top: -13.5%;
-    text-align: left;
+    text-align: right;
     color: #5f3712;
     letter-spacing: 0.5px;
 }
@@ -194,15 +215,15 @@ p {
     font-size: 21px;
     letter-spacing: 0.5px;
     font-family:'Times New Roman', Times, serif;
-    margin-left: 25.5%;
+    margin-right: 25.5%;
     color: #5f3712;
-    text-align: left;
+    text-align: right;
 }
 
 #h2_nick {
-    margin-right: 25.5%;
+    margin-left: 25.5%;
     margin-top: -17.5%;
-    text-align: right;
+    text-align: left;
     color: #7a5f07;
     letter-spacing: 0.5px;
 }
@@ -211,7 +232,34 @@ p {
     font-size: 21px;
     letter-spacing: 0.5px;
     font-family:'Times New Roman', Times, serif;
-    margin-right: 25.5%;
+    margin-left: 25.5%;
     color: #7a5f07;
-    text-align: right;
+    text-align: left;
+}
+
+#h2_andy {
+    margin-left: 25.5%;
+    margin-top: -13.5%;
+    text-align: left;
+    color: #59125f;
+    letter-spacing: 0.5px;
+}
+
+#p_andy {
+    font-size: 21px;
+    letter-spacing: 0.5px;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 25.5%;
+    color: #59125f;
+    text-align: left;
+}
+
+footer {
+    margin-top: 300px;
+    width: 95%;
+    background-color: rgb(128, 134, 106);
+    padding: 30px;
+    padding-right: 65px;
+    padding-left: 32px;
+    padding-bottom: 100px;
 }
