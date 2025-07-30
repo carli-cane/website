@@ -76,7 +76,7 @@ p {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 #matt {
@@ -241,7 +241,7 @@ p {
     margin-left: 25.5%;
     margin-top: -13.5%;
     text-align: left;
-    color: #59125f;
+    color: #5f1212;
     letter-spacing: 0.5px;
 }
 
@@ -250,7 +250,7 @@ p {
     letter-spacing: 0.5px;
     font-family:'Times New Roman', Times, serif;
     margin-left: 25.5%;
-    color: #59125f;
+    color: #5f1212;
     text-align: left;
 }
 
