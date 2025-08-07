@@ -66,7 +66,7 @@ p {
     font-family:'Times New Roman', Times, serif;
     font-size: 26.5px;
     letter-spacing: 0.5px;
-    margin-left: 10%;
+    margin-left: 9%;
     text-align: center;
     width: 80%;
 }
@@ -153,6 +153,7 @@ p {
 .container_left:hover #alex {
     opacity: 0.3;
 }
+
 
 .container_right:hover #matt {
     opacity: 0.3;
@@ -284,31 +285,138 @@ footer {
     padding-bottom: 100px;
 }
 
+.container {
+    width:12.5%;
+ }
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+
+.container #WPSTWIN {
+    margin-left: 3.5%;
+    position: relative;
+    width: 100%;
+}
+
+.container #FWN {
+    margin-left: 16.5%;
+    position: relative;
+    width: 100%;
+}
+
+.container #H {
+    margin-left: 29.5%;
+    position: relative;
+    width: 100%;
+}
+
+.container #SIAS {
+    margin-left: 42.5%;
+    position: relative;
+    width: 100%;
+}
+
+.container #AM {
+    margin-left: 55.5%;
+    position: relative;
+    width: 100%;
+}
+
+.container #TBHAC {
+    margin-left: 68.5%;
+    position: relative;
+    width: 100%;
+}
+
+.container #TC {
+    margin-left: 81.5%;
+    position: relative;
+    width: 100%;
+}
+
+.container:hover {
+    opacity: 0.3;
+}
+
+.container:hover .middle {
+    opacity: 1;
+}
+
 #WPSTWIN {
+    width: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
     margin-left: 75px;
-    width: 12.5%;
 }
 
 #FWN {
-    width: 12.5%;
+    width: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-top: -288px;
 }
 
 #H {
-    width: 12.5%;
+    width: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-top: -288px;
 }
 
 #SIAS {
-    width: 12.5%;
+    width: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-top: -288px;
 }
 
 #AM {
-    width: 12.5%;
+    width: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-top: -288px;
 }
 
 #TBHAC {
-    width: 12.5%;
+    width: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-top: -288px;
 }
 
 #TC {
-    width: 12.5%;
+    width: 100%;
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+    margin-top: -288px;
 }
+
