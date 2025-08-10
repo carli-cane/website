@@ -286,13 +286,13 @@ footer {
 }
 
 .container {
-    width:12.5%;
+    width: 12.5%;
  }
 
 .middle {
     transition: .5s ease;
     opacity: 0;
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -301,43 +301,46 @@ footer {
 
 
 .container #WPSTWIN {
-    margin-left: 3.5%;
+    margin-left: 75px;
     position: relative;
     width: 100%;
 }
 
 .container #FWN {
-    margin-left: 16.5%;
+    margin-top: -325px;
+    margin-left: 325px;
     position: relative;
     width: 100%;
 }
 
 .container #H {
-    margin-left: 29.5%;
+    margin-top: -306px;
+    margin-left: 575px;
     position: relative;
     width: 100%;
 }
 
 .container #SIAS {
-    margin-left: 42.5%;
+    margin-left: 825px;
     position: relative;
     width: 100%;
 }
 
 .container #AM {
-    margin-left: 55.5%;
+    margin-left: 1075px;
     position: relative;
     width: 100%;
 }
 
 .container #TBHAC {
-    margin-left: 68.5%;
+    margin-left: 1325px;
     position: relative;
     width: 100%;
 }
 
 .container #TC {
-    margin-left: 81.5%;
+    margin-top: -306px;
+    margin-left: 1575px;
     position: relative;
     width: 100%;
 }
@@ -357,7 +360,6 @@ footer {
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-    margin-left: 75px;
 }
 
 #FWN {
