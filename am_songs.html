@@ -8,6 +8,33 @@
         <link rel="stylesheet" href="AM.css">
         <link rel="stylesheet" href="normalize.css">
         <title> Arctic Monkeys - Songs </title>
+        <style>
+            .cd{
+                width: 12.5%;
+                height: 320px;
+                background-color:#fffffc;
+                display: inline-block;
+                margin-left: 20px;
+            }
+
+            .cd img{
+                max-width:90.75%;
+                border:solid #fffffc 10px;
+                margin-bottom:10px;
+            }
+
+            .cd p{
+                margin:0px;
+                text-align: center;
+                color: black;
+            }
+
+            .cd #hidden {
+                margin:0px;
+                text-align: center;
+                color: white;
+            }
+        </style>
     </head>
     <body>
         <nav>
@@ -20,22 +47,44 @@
         </header>
         <h1 id="songs_h1">Songs & Albums</h1>
         <p id="songs_p"> Over the 23 years Arctic Monkeys have been a band they have released 7 albums containing a total of 221 songs including their singles and EPs</p>
+        
+        <div class = "cd">
+            <img src="WPSTWIN.jpg">
+            <p> Whatever People Say That's <br> What I'm Not</p>
+        </div>
 
-        <img id="WPSTWIN" src="WPSTWIN.jpg">
-        <img id="FWN" src="FWN.jpg">
-        <img id="H" src="H.jpg">
-        <img id="SIAS" src="SIAS.jpg">
-        <img id="AM" src="AM.jpg">
-        <img id="TBHAC" src="TBHAC.jpg">
-        <img id="TC" src="TC.jpg">
+        <div class = "cd">
+            <img src="FWN.jpg">
+            <p>Favourite <br> Worst <br> Nightmare</p>
+        </div>
 
-        <p id="p_WPSTWIN"> Whatever People Say That's What I'm Not</p>
-        <p id="p_FWN">Favourite Worst Nightmare</p>
-        <p id="p_H">Humbug</p>
-        <p id="p_SIAS">Suck It And See</p>
-        <p id="p_AM">AM</p>
-        <p id="p_TBHAC"> Tranquility Base Hotel And Casino</p>
-        <p id="p_TC">The Car</p>
+        <div class = "cd">
+            <img src="H.jpg">
+            <p><br>Humbug <br></p>
+            <p id="hidden">Humbug</p>
+        </div>
+
+        <div class = "cd">
+            <img src="SIAS.jpg">
+            <p> Suck <br> It <br>And See</p>
+        </div>
+
+        <div class = "cd">
+            <img src="AM.jpg">
+            <p> <br> AM <br></p>
+            <p id="hidden">AM</p>
+        </div>
+
+        <div class = "cd">
+            <img src="TBHAC.jpg">
+            <p> Tranquility Base Hotel <br> And Casino </p>
+        </div>
+
+        <div class = "cd">
+            <img src="TC.jpg">
+            <p> <br> The Car <br></p>
+            <p id="hidden">The Car</p>
+        </div>
 
         <footer></footer>
     </body>
