@@ -286,16 +286,10 @@ footer {
 }
 
 
-#WPSTWIN {
+#WPSIATWIN {
     width: 12.5%;
     margin-left: 75px;
 
-}
-
-#p_WPSTWIN {
-    width: 12.5%;
-    text-align: center;
-    margin-left: 75px;
 }
 
 #FWN {
@@ -334,3 +328,11 @@ footer {
     margin-top: -450px;
 }
 
+.song_table {
+    font-family: "Libertinus Mono", monospace;
+    text-align: center;
+}
+
+table {
+    margin-left: 25%;
+}
