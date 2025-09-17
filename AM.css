@@ -28,8 +28,8 @@ header {
 
 
 #logo {
-    width: 40%;
-    margin-left: 30%;
+    width: 50%;
+    margin-left: 25%;
 }
 
 h1 {
@@ -43,11 +43,17 @@ p {
 
 #home_h1 {
     margin-top: 10px;
-    margin-left: 34.5%;
+    margin-left: 30.5%;
     font-size: 45px;
 }
 
-#home_p {
+#home2_h1 {
+    margin-top: 75px;
+    margin-left: 37.5%;
+    font-size: 45px;
+}
+
+.home_p {
     font-family:'Times New Roman', Times, serif;
     font-size: 26.5px;
     letter-spacing: 0.5px;
@@ -56,9 +62,10 @@ p {
     width: 80%;
 }
 
+
 #songs_h1 {
     margin-top: 10px;
-    margin-left: 39.5%;
+    margin-left: 36.5%;
     font-size: 45px;
 }
 
@@ -276,7 +283,7 @@ p {
 }
 
 footer {
-    margin-top: 300px;
+    margin-top: 150px;
     width: 95%;
     background-color: rgb(128, 134, 106);
     padding: 30px;
@@ -288,44 +295,37 @@ footer {
 
 #WPSIATWIN {
     width: 12.5%;
-    margin-left: 75px;
 
 }
 
 #FWN {
     width: 12.5%;
-    margin-left: 2.5px;
-    margin-top: -450px;
+    margin-top: -400px;
 }
 
 #H {
     width: 12.5%;
-    margin-left: 2.5px;
-    margin-top: -425px;
+    margin-top: -400px;
 }
 
 #SIAS {
     width: 12.5%;
-    margin-left: 2.5px;
-    margin-top: -425px;
+    margin-top: -400px;
 }
 
 #AM {
     width: 12.5%;
-    margin-left: 2.5px;
-    margin-top: -425px;
+    margin-top: -400px;
 }
 
 #TBHAC {
     width: 12.5%;
-    margin-left: 2.5px;
-    margin-top: -425px;
+    margin-top: -400px;
 }
 
 #TC {
     width: 12.5%;
-    margin-left: 2.5px;
-    margin-top: -450px;
+    margin-top: -400px;
 }
 
 .song_table {
@@ -334,6 +334,188 @@ footer {
 }
 
 table {
-    margin-left: 25%;
+    margin-left: 18.5%;
+    text-align: center;
+    background-color:#fdf4e3ff
 }
 
+#awards_h1 {
+    margin-top: 10px;
+    margin-left: 31.5%;
+    font-size: 45px;
+}
+
+th.title{
+    width: 725px;
+}
+
+tr, td {
+  color: black;
+}
+
+#title_IBYLGOTD {
+    color: #00493C;
+}
+
+#title_WTSGD, #title_WTSGD2 {
+    color: #676767;
+}
+
+#title_WPSIATWIN {
+    color: #4D6D6C;
+}
+
+#title_WTFAAM {
+    color: #CEAF8F;
+}
+
+#title_LBTLCO {
+    color: #DA9F74;
+}
+
+#title_B {
+    color: #FCE11E;
+}
+
+#title_FWN {
+    color: #CDB63E;
+}
+
+#title_DF2 {
+    color: #ffffff;
+}
+
+#title_FA {
+    color: #4692D3;
+}
+
+#title_TP {
+    color: #C99CD3;
+}
+
+#title_CL {
+    color: #ECB730;
+}
+
+#title_H {
+    color: #7D4562;
+}
+
+#title_C {
+    color: #7E7974;
+}
+
+#title_MP {
+    color: #24353E;
+}
+
+#title_DSDCIMYC {
+    color: #3C8C6C;
+}
+
+#title_SIAS {
+    color: #FCF3E2;
+}
+
+#title_THSS {
+    color: #9CC3E1;
+}
+
+#title_SIAS2 {
+    color: #E0C2A0;
+}
+
+#title_BT {
+    color: #DC2B37;
+}
+
+#title_RUM {
+    color: #82438F;
+}
+
+#title_DIWK {
+    color: #000000;
+}
+
+#title_WYOCMWYH {
+    color: #656565;
+}
+
+#title_AM {
+    color: #000000;
+}
+
+#title_OFTR {
+    color: #808080;
+}
+
+#title_SS {
+    color: #FBC768;
+}
+
+#title_TBHAC {
+    color: #B25407;
+}
+
+#title_TBHAC2 {
+    color: #47382B;
+}
+
+#title_505, #title_A, #title_LATRAH {
+    color: #BD371A;
+}
+
+#title_TBBAM {
+    color: #617672;
+}
+
+#title_BP {
+    color: #000000;
+}
+
+#title_IAQWITIA, #title_TC {
+    color: #bccbb7;
+}
+
+.top_button {
+    font-size: 25px;
+    margin-left: 42.75%;
+    background-color: rgb(128, 134, 106);
+    border: 2px solid #000000;
+    color: #fdf4e3ff;
+    margin-top: 50px;
+    margin-bottom: -50px;
+}
+
+.top_button:hover {
+    border: 2px solid #fdf4e3ff;
+}
+
+#awards_p {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 26.5px;
+    letter-spacing: 0.5px;
+    margin-left: 9%;
+    text-align: center;
+    width: 80%;
+}
+
+th.ceremony_awards{
+    width: 225px;
+}
+
+th.year_awards{
+    width: 100px;
+}
+
+th.nominee_awards{
+    width: 275px;
+}
+
+th.award_awards{
+    width: 275px;
+}
+
+th.result_awards{
+    width: 125px;
+}
